@@ -6,7 +6,8 @@
   (title_block
     (title "{{ cookiecutter.project_name}}")
     (rev "{{ cookiecutter.revision}}")
-    (company "{% if cookiecutter.organization %}{{ cookiecutter.organization }}{% else %}{{ cookiecutter.full_name"}}{% endif %}")
+    (company "{% if cookiecutter.organization %}{{ cookiecutter.organization }}{% else %}{{ cookiecutter.full_name }}{% endif %}")
+    (date "{% now 'utc' %}")
   )
   (lib_symbols)
   (image (at 412.115 243.205) (scale 0.316486)

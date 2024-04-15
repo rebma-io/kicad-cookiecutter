@@ -9,7 +9,8 @@
   (title_block
     (title "{{ cookiecutter.project_name}}")
     (rev "{{ cookiecutter.revision}}")
-    (company "{% if cookiecutter.organization %}{{ cookiecutter.organization }}{% else %}{{ cookiecutter.full_name"}}{% endif %}")
+    (company "{% if cookiecutter.organization %}{{ cookiecutter.organization }}{% else %}{{ cookiecutter.full_name }}{% endif %}")
+    (date "{% now 'utc' %}")
   )
 
   (layers
