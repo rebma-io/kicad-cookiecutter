@@ -1,0 +1,34 @@
+{
+  "full_name": "Susan Doe",
+  "email": "susan@nowhere.com",
+  "organization": "",
+  "github_username": "",
+  "project_name": "KiCad Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "A new fun KiCad project.",
+  "revision": "1",
+  "pcb_layers": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "copper_finish": [
+    "HAL SnPb",
+    "HAL lead-free",
+    "ENIG"
+  ],
+  "paper_size": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "A0",
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+  ]
+}
